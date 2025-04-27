@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-[black] text-white">
+    <header>
+        <nav class="grid grid-cols-2 ">
+            <h1 class="px-5 text-2xl "> <span class="text-red-400">z</span>eeshan</h1>
+            <ul class="flex justify-end flex-col gap-5 uppercase px-5 sm:flex-row sm:gap-10 lg:gap-15 my-2">
+                <li ><a href="#home" >home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#services">services</a></li>
+                <!-- <li><a href="">portfolio</a></li> -->
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="home">
+        <div class="grid grid-cols-1 justify-items-center my-44 md:grid-cols-2">
+            <div>
+                <h1 class="text-2xl font-bold">ui/ux designer</h1>
+                <br>
+                <p class="uppercase text-2xl">hi, iam <span class="text-red-400">zeeshan</span></p>
+            </div>
+            <div>
+                <img src="images/ram.jpeg" alt="" class="h-[400px] rounded-md my-5">
+            </div>
+          
+        </div>
+        
+    </main>
+    <!-- about section start -->
+     <section id="about">
+     <h1 class="text-center font-bold uppercase text-xl">about me</h1>
+     <div class="grid grid-cols-1 my-10 justify-items-center gap-10  lg:grid-cols-3">
+        <div>
+            <img src="images/ram.jpeg" alt="" class="mx-5  w-[500px]">
+        </div>
+        <div class="skills mx-5">
+            <h1 class="text-red-400 uppercase text-center">skills</h1> 
+            <br>
+        <li class="uppercase">front-end tecnologies :html,css,basic javascript</li>
+        <br>
+        <li class="uppercase">css popular frameworks like tailwindcss and also bootstrap</li>
+        </div>
+        <div class="education">
+            <h1 class="text-red-400 uppercase text-center">education</h1>
+            <br>
+            <p class="uppercase">i complete my <span class="text-red-400">bca</span> in trident academy of creative technology at bhubneswar in 2024. And i got 8.7 cgpa in <span class="text-red-400">bca</span></p>
+        </div>
+     </div>
+       
+     </section>
+     <!-- my services start -->
+      <section id="services">
+        <h1 class="text-2xl font-bold uppercase text-center my-5">my services</h1>
+        <div class="grid grid-cols-1 justify-items-center my-5 lg:grid-cols-2   ">
+            <div class="py-5 bg-[#262626] text-center hover:bg-red-400 ">
+                <i class="fa-solid fa-code text-2xl"></i>
+                <br>
+                <h class="my-5">web design</h1>
+                    <br>
+                <br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo, perferendis.</p>
+                <br>
+                <a href="">lern more</a>
+            </div>
+            <div class="py-5 bg-[#262626] text-center  hover:bg-red-400 my-5 lg:my-0">
+                <i class="fa-solid fa-crop-simple text-2xl"></i>
+                <br>
+                <h1>ui/uxdesign</h1>
+                <br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo, perferendis.</p>
+                <br>
+                <a href="">lern more</a>
+            </div>
+        </div>
+      </section>
+      
+      <!-- contact section start    -->
+       <section class="my-10" id="contact">
+        <div class="grid grid-cols-1 justify-items-center lg:grid-cols-2 ">
+            <div class="left">
+                <h1 class="text-3xl font-bold uppercase">contact me</h1>
+                <br>
+                <p > <i class="fa-solid fa-paper-plane text-red-400 text-xl pr-3" ></i>jesanskfb786@gmail.com</p>
+                <br>
+
+                <h1> <i class="fa-solid fa-phone text-red-400 text-xl pr-3"></i>8984465816</h1>
+                <br>
+
+              <div class="social icon flex gap-10 ">
+                <a href="" class="text-3xl "><i class="fa-brands fa-square-facebook"></i></a>
+    
+
+                <a href="" class="text-3xl "><i class="fa-brands fa-square-twitter"></i></a>
+                <a href="" class="text-3xl "><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="" class="text-3xl "><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+              <br>
+              <br>
+              <a href="images/Ze.Resume.pdf" download="" class="bg-red-400 mt-10 rounded-md px-10 py-3 font-bold">Download Resume</a>
+            </div>
+            <div class="right">
+                <form action="" class="flex flex-col my-10">
+                    <input type="text" placeholder="YOUR NAME" class="w-[300px] bg-[#262626] lg:w-[500px]">
+                    <br>
+                    <input type="email" name="" id="" placeholder="YOUR EMAIL" class="bg-[#262626]">
+                    <br>
+                    <textarea name="" id="" rows="6" placeholder="YOUR MASSAGE" class="bg-[#262626]"></textarea>
+                    
+                </form>
+                <button class="bg-red-400 rounded-md px-5 font-bold">submit</button>
+            </div>
+        </div>
+       </section>
+       <footer class="bg-[#262626] py-5">
+        <p class="text-center font-bold">copyright @zeeshan made with <i class="fa-solid fa-heart text-red-400"></i> by easy tuturial</p>
+       </footer>
+</body>
+</html>
